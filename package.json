@@ -1,0 +1,24 @@
+{
+  "name": "html2sendgrid",
+  "version": "1.0.4",
+  "description": "A CLI command to publish HTML files as Dynamic Templates on Sendgrid",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src"
+  },
+  "bin": {
+    "html2sendgrid": "./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lidio601/html2sendgrid.git"
+  },
+  "author": "Fabio Cigliano <fabio.cigliano@gmail.com>",
+  "dependencies": {
+    "@lidio601/logger": "^1.0.3",
+    "@sendgrid/client": "^6.4.0",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.21"
+  }
+}
