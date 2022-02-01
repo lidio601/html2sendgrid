@@ -29,3 +29,15 @@ if you want to upload also some test variables
 export SENDGRID_API_KEY=YOUR_API_KEY
 npm start <HTML_DIR> <VARIABLES.JSON>
 ```
+
+## Max version per template
+
+```
+export MAX_VERSION_PER_TEMPLATE=5
+```
+
+If you set this variable the module will automatically rotate the versions of the template by keeping the last N versions.
+
+This is useful because Sendgrid has a limit of 300 versions per account.
+
+If you have multiple template within the same account you might want to limit how many versions of a template you want to keep in order to not hit this limit.

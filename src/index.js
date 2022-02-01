@@ -45,4 +45,4 @@ async function run() {
   await _.map(templateData, processTemplate(templateMap));
 }
 
-run();
+module.exports = run;
