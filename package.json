@@ -1,6 +1,6 @@
 {
   "name": "html2sendgrid",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A CLI command to publish HTML files as Dynamic Templates on Sendgrid",
   "main": "src/index.js",
   "license": "MIT",
