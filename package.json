@@ -17,7 +17,7 @@
   "author": "Fabio Cigliano <fabio.cigliano@gmail.com>",
   "dependencies": {
     "@lidio601/logger": "^1.0.3",
-    "@sendgrid/client": "^7.6.0",
+    "@sendgrid/client": "^8.1.1",
     "dotenv": "^15.0.0",
     "lodash": "^4.17.21"
   }
